@@ -1,0 +1,25 @@
+# SpaceX Falcon 9 Landing Prediction
+# Core data collection and analysis
+requests
+pandas
+numpy
+
+# Web scraping
+beautifulsoup4
+lxml
+
+# Data visualization
+matplotlib
+seaborn
+plotly
+folium
+
+# Machine learning
+scikit-learn
+
+# Dashboard
+dash
+
+# Jupyter / VS Code notebook support
+jupyter
+ipykernel
