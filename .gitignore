@@ -13,6 +13,7 @@ env/
 
 # Environment variables
 .env
+.env.*
 
 # VS Code
 .vscode/
@@ -21,9 +22,16 @@ env/
 .DS_Store
 Thumbs.db
 
-# Python cache
+# Python cache and packages
 *.egg-info/
+build/
+dist/
 
-# Large/generated files
+# Large/generated model files
 *.pkl
 *.joblib
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
